@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!162 &1
+EditorUserSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 4
+  m_ConfigSettings:
+    HideARKitFaceTrackingDeprecatedWarning:
+      value: 17434103
+      flags: 0
+    RecentlyUsedSceneGuid-0:
+      value: 5302025e035451595d5a5f2311215b444616407e7e7f7335797e4e60e6b6316c
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 070506530104500e5b5c5f704273094440154872292e74687b2c4b66bae5326a
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 55535005000d500d5857547346770a45144e1e737c7e20337b7b1962bbb96568
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5403010057040f0c5e57087441255b44414f4a732e297468747a196ae1b6643e
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 05000c0203510d5d5c0b5e7b117a06441215402f79707260292b1b32e4b63060
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 070402565056080c08570e26407b5944444f4e782a70763429781b61e3e1623d
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 540205000707590b0b0d5c7615710d4447164f7e282a7e642c701f63bbb66568
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 5055500751060c590b5b5a7447770b4447164b292f2923667c7b4a35b2e46c3b
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 5757005401535d590f0c5d261577084415154e7c7f707f6474711f64b2e46769
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+      flags: 0
+    UnityRemoteDevice:
+      value: 225f4d46245b0d4902070862342649191512
+      flags: 0
+    vcSharedLogLevel:
+      value: 0d5e400f0650
+      flags: 0
+  m_VCAutomaticAdd: 1
+  m_VCDebugCom: 0
+  m_VCDebugCmd: 0
+  m_VCDebugOut: 0
+  m_SemanticMergeMode: 2
+  m_DesiredImportWorkerCount: 3
+  m_StandbyImportWorkerCount: 2
+  m_IdleImportWorkerShutdownDelay: 60000
+  m_VCShowFailedCheckout: 1
+  m_VCOverwriteFailedCheckoutAssets: 1
+  m_VCProjectOverlayIcons: 1
+  m_VCHierarchyOverlayIcons: 1
+  m_VCOtherOverlayIcons: 1
+  m_VCAllowAsyncUpdate: 1
+  m_ArtifactGarbageCollection: 1

@@ -1,0 +1,771 @@
+fileFormatVersion: 2
+guid: 463a379d05d7f8e438e8734a4b74e939
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: PEPE_BONE_ESPINHA_1
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_COXA_ESQUERDO
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_COXA_DIREITO
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_PERNA_ESQUERDO
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_PERNA_DIREITO
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_PE_ESQUERDO
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_PE_DIREITO
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_ESPINHA_2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_ESPINHA_3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_PESCOCO
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_CABECA
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_BRACO_ESQUERDO
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_OMBRO_DIREITO
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_ANTEBRACO_ESQUERDO
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_BRACO_DIREITO
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_MAO_ESQUERDO
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_ANTEBRACO_DIREITO
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO1_2_ESQUERDO
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_MAO_DIREITO
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_PONTA_PE_ESQUERDO
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_PONTA_PE_DIREITO
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_CABELO01
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_MESH_OCULOS1
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_NARIZ01
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO1_1_DIREITO
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO1_2_DIREITO
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO1_3_DIREITO
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO5_1_DIREITO
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO5_2_DIREITO
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO5_3_DIREITO
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO2_1_DIREITO
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO2_2_DIREITO
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO2_3_DIREITO
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO3_1_DIREITO
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO3_2_DIREITO
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO3_3_DIREITO
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO4_1_DIREITO
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO4_2_DIREITO
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_DEDO4_3_DIREITO
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_BONE_ESPINHA_4
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: PEPE_SKETCHFAB_01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_ESPINHA_1
+      parentName: PEPE_SKETCHFAB_01(Clone)
+      position: {x: 0, y: 0.72959924, z: 0.04802601}
+      rotation: {x: 0.50103503, y: -0.49898466, z: -0.5010133, w: 0.49896297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_COXA_DIREITO
+      parentName: PEPE_BONE_ESPINHA_1
+      position: {x: -0.035404623, y: -0.0048737545, z: -0.21178561}
+      rotation: {x: 0.018068478, y: 0.99005324, z: -0.13158755, w: -0.046399828}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_PERNA_DIREITO
+      parentName: PEPE_BONE_COXA_DIREITO
+      position: {x: -0.30139968, y: -0.000000018167496, z: 0.00000009689331}
+      rotation: {x: -0.00041203576, y: -0.0055813417, z: 0.006905741, w: 0.9999605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_PE_DIREITO
+      parentName: PEPE_BONE_PERNA_DIREITO
+      position: {x: -0.29816574, y: -0.000000042390823, z: 0.000000024223327}
+      rotation: {x: 0.021813368, y: -0.060913093, z: -0.55231506, w: 0.83112085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_PONTA_PE_DIREITO
+      parentName: PEPE_BONE_PE_DIREITO
+      position: {x: -0.34341326, y: 0, z: 0.000000024223327}
+      rotation: {x: -0.06784856, y: -0.06923133, z: -0.10581536, w: 0.98964983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_COXA_ESQUERDO
+      parentName: PEPE_BONE_ESPINHA_1
+      position: {x: -0.035404816, y: -0.0048675872, z: 0.21178576}
+      rotation: {x: 0.01806791, y: 0.9900551, z: 0.13157319, w: 0.046400156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_PERNA_ESQUERDO
+      parentName: PEPE_BONE_COXA_ESQUERDO
+      position: {x: -0.30139983, y: -0.000000012111664, z: 0.000000048446655}
+      rotation: {x: 0.00041213838, y: 0.005581151, z: 0.0069056936, w: 0.9999605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_PE_ESQUERDO
+      parentName: PEPE_BONE_PERNA_ESQUERDO
+      position: {x: -0.2981656, y: -0.000000048446655, z: 0.000000048446655}
+      rotation: {x: -0.02181338, y: 0.060913056, z: -0.55231506, w: 0.83112085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_PONTA_PE_ESQUERDO
+      parentName: PEPE_BONE_PE_ESQUERDO
+      position: {x: -0.3434132, y: 0, z: 0.00000009689331}
+      rotation: {x: 0.06784822, y: 0.069231406, z: -0.105815336, w: 0.98964983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_ESPINHA_2
+      parentName: PEPE_BONE_ESPINHA_1
+      position: {x: -0.23809765, y: 0.00000004541874, z: 0}
+      rotation: {x: -0.000007412863, y: -0.00000043273155, z: -0.038101036, w: 0.9992739}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_ESPINHA_3
+      parentName: PEPE_BONE_ESPINHA_2
+      position: {x: -0.19796059, y: -0.000000042390823, z: 0}
+      rotation: {x: 0.0000011904282, y: 0.00000006297334, z: 0.05282588, w: 0.99860376}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_ESPINHA_4
+      parentName: PEPE_BONE_ESPINHA_3
+      position: {x: -0.1843616, y: 0.00000008478165, z: 1.15505826e-14}
+      rotation: {x: -0.0000017123448, y: -0.00000005409555, z: 0.0060637086, w: 0.99998164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_OMBRO_DIREITO
+      parentName: PEPE_BONE_ESPINHA_4
+      position: {x: -0.14974202, y: -0.010584238, z: -0.116113275}
+      rotation: {x: 0.502636, y: -0.43174815, z: 0.47840202, w: 0.57626563}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_BRACO_DIREITO
+      parentName: PEPE_BONE_OMBRO_DIREITO
+      position: {x: -0.17957428, y: 0, z: 0.000000006055832}
+      rotation: {x: -0.009338469, y: -0.03901528, z: 0.1100236, w: 0.99311906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_ANTEBRACO_DIREITO
+      parentName: PEPE_BONE_BRACO_DIREITO
+      position: {x: -0.299052, y: 0, z: 0.00000019378662}
+      rotation: {x: 0.0005886878, y: -0.065340444, z: -0.017633658, w: 0.99770707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_MAO_DIREITO
+      parentName: PEPE_BONE_ANTEBRACO_DIREITO
+      position: {x: -0.37703174, y: -0.00000019378662, z: -0.00000019984246}
+      rotation: {x: 0.001988162, y: 0.007463204, z: 0.013808546, w: 0.9998749}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO1_1_DIREITO
+      parentName: PEPE_BONE_MAO_DIREITO
+      position: {x: -0.26466194, y: -0.008946353, z: -0.14390762}
+      rotation: {x: 0.04310157, y: -0.38308394, z: 0.044672985, w: 0.9216254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO1_2_DIREITO
+      parentName: PEPE_BONE_DEDO1_1_DIREITO
+      position: {x: -0.08266229, y: 0, z: -0.000000012111664}
+      rotation: {x: -0.0014498015, y: 0.028478064, z: -0.0031153008, w: 0.99958855}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO1_3_DIREITO
+      parentName: PEPE_BONE_DEDO1_2_DIREITO
+      position: {x: -0.043483585, y: 0, z: -0.00000019378662}
+      rotation: {x: -0.015289019, y: -0.02698507, z: -0.03297834, w: 0.99897474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO2_1_DIREITO
+      parentName: PEPE_BONE_MAO_DIREITO
+      position: {x: -0.31612673, y: -0.0061876066, z: -0.046218585}
+      rotation: {x: 0.01060474, y: -0.010166754, z: 0.06492666, w: 0.9977819}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO2_2_DIREITO
+      parentName: PEPE_BONE_DEDO2_1_DIREITO
+      position: {x: -0.07124284, y: 0, z: -0.00000019984246}
+      rotation: {x: 0.0047553903, y: -0.005825386, z: 0.03260168, w: 0.9994402}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO2_3_DIREITO
+      parentName: PEPE_BONE_DEDO2_2_DIREITO
+      position: {x: -0.070203856, y: 0, z: 0.00000019378662}
+      rotation: {x: -0.012248758, y: -0.0012271816, z: -0.08001562, w: 0.99671763}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO3_1_DIREITO
+      parentName: PEPE_BONE_MAO_DIREITO
+      position: {x: -0.3044324, y: -0.0031317852, z: 0.05591442}
+      rotation: {x: 0.0023963638, y: 0.0020778053, z: 0.021832876, w: 0.9997567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO3_2_DIREITO
+      parentName: PEPE_BONE_DEDO3_1_DIREITO
+      position: {x: -0.07412406, y: 0.00000019378662, z: -0.00000014533997}
+      rotation: {x: -0.016577149, y: 0.0031805271, z: 0.03901532, w: 0.99909604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO3_3_DIREITO
+      parentName: PEPE_BONE_DEDO3_2_DIREITO
+      position: {x: -0.060457695, y: 0.00000019378662, z: 0}
+      rotation: {x: 0.015653118, y: -0.008180958, z: -0.084905304, w: 0.9962325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO4_1_DIREITO
+      parentName: PEPE_BONE_MAO_DIREITO
+      position: {x: -0.25703654, y: -0.008925618, z: 0.14251019}
+      rotation: {x: -0.0058417358, y: -0.0060516414, z: 0.018335702, w: 0.99979657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO4_2_DIREITO
+      parentName: PEPE_BONE_DEDO4_1_DIREITO
+      position: {x: -0.06480321, y: 0, z: 0.00000009689331}
+      rotation: {x: -0.011588822, y: -0.037686564, z: 0.014003983, w: 0.9991243}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO4_3_DIREITO
+      parentName: PEPE_BONE_DEDO4_2_DIREITO
+      position: {x: -0.05382588, y: -0.00000019378662, z: 0.00000009689331}
+      rotation: {x: 0.014742297, y: 0.025038494, z: -0.033596974, w: 0.99901307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO5_1_DIREITO
+      parentName: PEPE_BONE_MAO_DIREITO
+      position: {x: -0.10422271, y: -0.02097217, z: -0.08420834}
+      rotation: {x: -0.6779969, y: -0.101443075, z: -0.08164118, w: 0.7234392}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO5_2_DIREITO
+      parentName: PEPE_BONE_DEDO5_1_DIREITO
+      position: {x: -0.11453545, y: -0.00000009689331, z: 0}
+      rotation: {x: 0.05208866, y: -0.021756895, z: 0.024439363, w: 0.9981063}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO5_3_DIREITO
+      parentName: PEPE_BONE_DEDO5_2_DIREITO
+      position: {x: -0.08133045, y: -0.00000019378662, z: 0}
+      rotation: {x: -0.08003423, y: -0.0044748927, z: -0.11231861, w: 0.9904338}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_OMBRO_ESQUERDO
+      parentName: PEPE_BONE_ESPINHA_4
+      position: {x: -0.14974222, y: -0.010584541, z: 0.11611353}
+      rotation: {x: -0.50263524, y: 0.4317477, z: 0.47840288, w: 0.57626593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_BRACO_ESQUERDO
+      parentName: PEPE_BONE_OMBRO_ESQUERDO
+      position: {x: -0.1795742, y: -0.00000009689331, z: 0.000000006055832}
+      rotation: {x: 0.009338379, y: 0.039015293, z: 0.11002374, w: 0.99311906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_ANTEBRACO_ESQUERDO
+      parentName: PEPE_BONE_BRACO_ESQUERDO
+      position: {x: -0.2990521, y: -0.00000019378662, z: -0.00000039060114}
+      rotation: {x: -0.0007596944, y: 0.05749679, z: -0.01860072, w: 0.99817216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_MAO_ESQUERDO
+      parentName: PEPE_BONE_ANTEBRACO_ESQUERDO
+      position: {x: -0.37703183, y: 0, z: -0.000000006055832}
+      rotation: {x: -0.0061406745, y: -0.23813431, z: -0.02922972, w: 0.9707729}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO1_1_ESQUERDO
+      parentName: PEPE_BONE_MAO_ESQUERDO
+      position: {x: -0.26466194, y: -0.008946547, z: 0.1439077}
+      rotation: {x: -0.02298859, y: 0.16303858, z: 0.07436724, w: 0.98354435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO1_2_ESQUERDO
+      parentName: PEPE_BONE_DEDO1_1_ESQUERDO
+      position: {x: -0.0826622, y: 0, z: 0.000000036334992}
+      rotation: {x: 0.0014494762, y: -0.028478146, z: -0.0031153394, w: 0.99958855}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO1_3_ESQUERDO
+      parentName: PEPE_BONE_DEDO1_2_ESQUERDO
+      position: {x: -0.043483585, y: 0, z: 0.000000072669984}
+      rotation: {x: 0.015289415, y: 0.026985228, z: -0.032978334, w: 0.9989747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO2_1_ESQUERDO
+      parentName: PEPE_BONE_MAO_ESQUERDO
+      position: {x: -0.3161272, y: -0.0061878003, z: 0.04621848}
+      rotation: {x: -0.009977239, y: 0.0017361683, z: 0.072223775, w: 0.99733704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO2_2_ESQUERDO
+      parentName: PEPE_BONE_DEDO2_1_ESQUERDO
+      position: {x: -0.07124323, y: 0, z: -0.00000009083748}
+      rotation: {x: -0.004755127, y: 0.005825255, z: 0.03260166, w: 0.9994402}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO2_3_ESQUERDO
+      parentName: PEPE_BONE_DEDO2_2_ESQUERDO
+      position: {x: -0.07020405, y: 0, z: -0.000000102949144}
+      rotation: {x: 0.012248416, y: 0.0012269126, z: -0.08001574, w: 0.9967176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO3_1_ESQUERDO
+      parentName: PEPE_BONE_MAO_ESQUERDO
+      position: {x: -0.30443227, y: -0.0031319791, z: -0.05591433}
+      rotation: {x: 0.00092308165, y: -0.15493466, z: 0.045714427, w: 0.98686606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO3_2_ESQUERDO
+      parentName: PEPE_BONE_DEDO3_1_ESQUERDO
+      position: {x: -0.07412387, y: -0.00000019378662, z: -0.00000009689331}
+      rotation: {x: 0.016522968, y: -0.0072713466, z: 0.08917009, w: 0.9958528}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO3_3_ESQUERDO
+      parentName: PEPE_BONE_DEDO3_2_ESQUERDO
+      position: {x: -0.060457405, y: 0.00000019378662, z: -0.00000009689331}
+      rotation: {x: -0.01565261, y: 0.008180993, z: -0.08490523, w: 0.9962325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO4_1_ESQUERDO
+      parentName: PEPE_BONE_MAO_ESQUERDO
+      position: {x: -0.25703654, y: -0.008925811, z: -0.14251037}
+      rotation: {x: 0.011756194, y: -0.31972522, z: 0.060945474, w: 0.94547516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO4_2_ESQUERDO
+      parentName: PEPE_BONE_DEDO4_1_ESQUERDO
+      position: {x: -0.06480321, y: 0, z: -0.00000024223328}
+      rotation: {x: 0.0115708625, y: 0.06403819, z: 0.023798637, w: 0.99759656}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO4_3_ESQUERDO
+      parentName: PEPE_BONE_DEDO4_2_ESQUERDO
+      position: {x: -0.053825784, y: -0.00000019378662, z: 0.00000038757324}
+      rotation: {x: -0.0147424275, y: -0.02503836, z: -0.033597007, w: 0.99901307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO5_1_ESQUERDO
+      parentName: PEPE_BONE_MAO_ESQUERDO
+      position: {x: -0.1042229, y: -0.02097217, z: 0.084208235}
+      rotation: {x: 0.53443766, y: 0.45680076, z: -0.4151551, w: 0.57736963}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO5_2_ESQUERDO
+      parentName: PEPE_BONE_DEDO5_1_ESQUERDO
+      position: {x: -0.114535525, y: 0.000000048446655, z: -0.00000019378662}
+      rotation: {x: -0.050915148, y: 0.14194092, z: 0.15944485, w: 0.97562176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_DEDO5_3_ESQUERDO
+      parentName: PEPE_BONE_DEDO5_2_ESQUERDO
+      position: {x: -0.0813304, y: 0.00000014533997, z: 0}
+      rotation: {x: 0.0800341, y: 0.004474844, z: -0.11231841, w: 0.9904338}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_PESCOCO
+      parentName: PEPE_BONE_ESPINHA_4
+      position: {x: -0.33221734, y: 0.000000072669984, z: -4.620233e-14}
+      rotation: {x: 0.0000017444218, y: -0.00000016298928, z: -0.000039292503, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_CABECA
+      parentName: PEPE_BONE_PESCOCO
+      position: {x: -0.07874868, y: 0.000000036334992, z: 0.00000019378662}
+      rotation: {x: -0.0000012350678, y: -0.00000006238675, z: 0.014120162, w: 0.99990034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_CABELO01
+      parentName: PEPE_BONE_CABECA
+      position: {x: -1.0300549, y: 0.34686852, z: 0.00000038757324}
+      rotation: {x: 0.8556696, y: -0.5175225, z: -0.00000036747005, w: 0.00000014459322}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_MAXILAR
+      parentName: PEPE_BONE_CABECA
+      position: {x: -0.22810371, y: -0.05511496, z: 0.00000019378662}
+      rotation: {x: -0.00000024815992, y: 0.0000003001003, z: -0.77064514, w: 0.6372645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_LINGUA01
+      parentName: PEPE_BONE_MAXILAR
+      position: {x: 0.07196683, y: -0.0045340257, z: 0.0002463028}
+      rotation: {x: 0.981669, y: 0.19059376, z: -0.00000065379436, w: 0.000006639918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_LINGUA02
+      parentName: PEPE_BONE_LINGUA01
+      position: {x: -0.0988536, y: 0.00000038757324, z: 0}
+      rotation: {x: 0.000028157363, y: 0.0000020462317, z: 0.18619595, w: 0.98251265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_LINGUA03
+      parentName: PEPE_BONE_LINGUA02
+      position: {x: -0.10368123, y: 0, z: 0}
+      rotation: {x: -0.00001356396, y: 0.0000033978404, z: 0.1386151, w: 0.9903463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_LINGUA04
+      parentName: PEPE_BONE_LINGUA03
+      position: {x: -0.093642004, y: -0.00000019378662, z: 2.3655593e-11}
+      rotation: {x: -0.0000034745078, y: 0.000002227545, z: 0.118196346, w: 0.99299026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_NARIZ01
+      parentName: PEPE_BONE_CABECA
+      position: {x: -0.32373565, y: 0.5632201, z: 0.00000038757324}
+      rotation: {x: 0.7828561, y: -0.6222028, z: -0.0000003858741, w: 0.00000009923496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_ORELHA01_ESQUERDO
+      parentName: PEPE_BONE_CABECA
+      position: {x: -0.46171114, y: -0.08731536, z: 0.42381188}
+      rotation: {x: 0.67562026, y: 0.23634838, z: -0.58893394, w: -0.37527788}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_BONE_ORELHA02_DIREITO
+      parentName: PEPE_BONE_CABECA
+      position: {x: -0.46171176, y: -0.08731508, z: -0.4238111}
+      rotation: {x: 0.67562085, y: 0.23634845, z: 0.5889334, w: 0.37527764}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_MESH_BOINA
+      parentName: PEPE_BONE_CABECA
+      position: {x: -1.1884204, y: -0.21173784, z: -0.000011315177}
+      rotation: {x: 0.67889494, y: 0.19775122, z: -0.67888874, w: 0.19775303}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_MESH_OCULOS1
+      parentName: PEPE_BONE_CABECA
+      position: {x: -0.65989304, y: 0.65043306, z: -0.000005598989}
+      rotation: {x: 0.70669127, y: -0.024314206, z: -0.706686, w: -0.024314387}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_MESH_BLUSA
+      parentName: PEPE_SKETCHFAB_01(Clone)
+      position: {x: -0, y: -0.056542344, z: -0.0000000024715445}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_MESH_CALCA
+      parentName: PEPE_SKETCHFAB_01(Clone)
+      position: {x: -0, y: -0.056542344, z: -0.0000000024715445}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_MESH_CAMISA
+      parentName: PEPE_SKETCHFAB_01(Clone)
+      position: {x: -0, y: -0.056542344, z: -0.0000000024715445}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_MESH_CORPO
+      parentName: PEPE_SKETCHFAB_01(Clone)
+      position: {x: -0, y: -0.056542344, z: -0.0000000024715445}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PEPE_MESH_SAPATO
+      parentName: PEPE_SKETCHFAB_01(Clone)
+      position: {x: -0, y: -0.056542344, z: -0.0000000024715445}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 2
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

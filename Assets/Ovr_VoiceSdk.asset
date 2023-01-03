@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: Ovr_VoiceSdk
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 11400000}
+    name: textspeech
+    id: 552046423391285
+    lang: en
+    isPrivate: 1
+    createdAt: 2022-10-07T07:16:07-0700
+  configId: 25ec6c385eb0946479f550d1db35cedd
+  clientAccessToken: ZWGDPCKVGORC7KR26R36W7ORQIMAV5WR
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+    dictation: 
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 3279460982322773
+    name: Greetings
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 507816530876681
+      name: Greetings
+    keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 669185827744719
+    name: hello
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 673571521017156
+      name: hello
+    keywords:
+    - keyword: hello
+      synonyms:
+      - halo
+      - hello
+      - helo
+      - heloo
+  - witConfiguration: {fileID: 11400000}
+    id: 2891655551129577
+    name: how_are_you
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 403987511753183
+      name: how_are_you
+    keywords:
+    - keyword: I am good
+      synonyms:
+      - how are you doing buddy?
+      - how are you doing?
+      - how are you?
+      - how you?
+      - how?
+      - hows you?
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 475775477646141
+    name: Greeting
+    entities: []
+  - witConfiguration: {fileID: 11400000}
+    id: 1678140175920706
+    name: hello
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 673571521017156
+      name: hello:hello
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 1221257208419558
+    name: how_are_you
+    entities: []
+  - witConfiguration: {fileID: 11400000}
+    id: 830458758105467
+    name: wit$check_weather_condition
+    entities: []
+  traits:
+  - witConfiguration: {fileID: 11400000}
+    id: 5900cc2d-867c-4bf0-beb6-ef6e6bf45ca5
+    name: wit$thanks
+    values:
+    - id: e5cce196-9948-420c-a9fb-9c2fd201adaf
+      value: true
+  isDemoOnly: 0
+  useConduit: 0
+  manifestLocalPath: ConduitManifest-3f4984a5-d300-41b5-a04f-7338f01aac5a.json
+  autoGenerateManifest: 0
+  openManifestOnGeneration: 0
