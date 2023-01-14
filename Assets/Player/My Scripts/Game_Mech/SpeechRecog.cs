@@ -61,15 +61,15 @@ public PlayerMov playerMov;
                    texts.text = "Hi!"; 
                    }
                  }
-                              
+                             
                  else if(result[i] == "how are you")
                   {
                     _speaker.Speak(texts.text);
                  
-                    if(_speaker.IsSpeaking == true)
-                      {
-                   texts.text = "I am fine";
-                      }
+                  //   if(_speaker.IsSpeaking == true)
+                  //     {
+                  //  texts.text = "I am fine";
+                  //     }
                   
                   }
                   
@@ -77,25 +77,22 @@ public PlayerMov playerMov;
                    {
                      _speaker.Speak(texts.text);
                    texts.text = "My name is Mario";
-                   
                     }
+
                     else if (result[i] == "forward" )
                       { _speaker.Speak(texts.text);
                          texts.text = "Moving forward";        
                            playerMov.Forward();
                          
                       }
-            
-                 else if (result[i] == "turn" )
-                 {
-                
-                   playerMov.Back();
-                    _speaker.Speak(texts.text); 
+                  else if (result[i] == "turn" )
+                   {
+                    playerMov.Back();
                     texts.text = "Moving Backward";
-                 }  
+                    _speaker.Speak(texts.text);     
+                    }  
                  else if (result[i] == "stop" )
                  {
-
                    texts.text = "stop";
                    playerMov.Stop();
                   _speaker.Speak(texts.text);

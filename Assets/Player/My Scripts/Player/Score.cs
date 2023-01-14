@@ -21,4 +21,6 @@ public class Score : MonoBehaviour
         CurrentScore += Time.deltaTime;
         scoreText.text = "Score: " + (int)CurrentScore;
     }
-}
+
+
+}//class

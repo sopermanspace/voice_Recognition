@@ -44,6 +44,6 @@ IEnumerator Damage(int damage){
  }
 
 
-}
+}//class
 
 

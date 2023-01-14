@@ -4,34 +4,49 @@ using UnityEngine;
 
 public class Spawn : MonoBehaviour
 {
-  public GameObject Enemys;
-public Transform[] SpawnPoints;
-public float STspwan;
-float TBspwan; 
-
-
+ public GameObject Enemys;
+    public Transform[] SpawnPoints;
+    public float spawnTime = 5f;
+    private float timer; 
+    public bool spawnEnemies = true;
 
     void Start()
     {
-           TBspwan = STspwan;
+        timer = spawnTime;
     }
 
     // Update is called once per frame
     void Update()
     {
-          Spawnner();
+        if (spawnEnemies)
+        {
+            SpawnEnemies();
+        }
     }
 
-void Spawnner(){
-   if(TBspwan <= 0 ){
-      Vector3 spawnPosition = SpawnPoints[Random.Range(0,SpawnPoints.Length)].position; 
-    Instantiate(Enemys, spawnPosition,Quaternion.identity);
+    void SpawnEnemies()
+    {
+        if (timer <= 0f)
+        {
+            int randomIndex = Random.Range(0, SpawnPoints.Length);
+            Instantiate(Enemys, SpawnPoints[randomIndex].position, Quaternion.identity);
+            timer = spawnTime;
+        }
+        else
+        {
+            timer -= Time.deltaTime;
+        }
+    }
 
-    TBspwan = STspwan;
-   }else{
-     TBspwan -= Time.deltaTime;
-   } 
-}
+    public void StartSpawning()
+    {
+        spawnEnemies = true;
+    }
+
+    public void StopSpawning()
+    {
+        spawnEnemies = false;
+    }
 
 
-}
+}//class
