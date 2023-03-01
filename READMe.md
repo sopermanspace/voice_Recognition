@@ -11,7 +11,7 @@ Commands Like :
 - Forward
 -  turn
 -  jump
-
+- AI Assistant Commands like :-0 weather in _*"cityname"*_, dance , and many others
 
 
 # Features
@@ -19,6 +19,7 @@ Commands Like :
 - Ai Assistant
 - Enaging and Never Ending Challenges
 - Voice Commands to make the Character Dance
+
 
 # Glimpes
 
