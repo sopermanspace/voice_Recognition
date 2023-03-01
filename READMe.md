@@ -31,7 +31,7 @@ Commands Like :
 If you have any issues or questions about voice_Recognition, open an issue on the Github repository.
 
 ***************************************************************
-# We hope you 🥰 playing voice_Recognition!![Gitreq](https://user-images.githubusercontent.com/84278213/222178066-b548ea4d-aef8-4e01-b23a-52db2efbb2d5.png)
+# We hope you 🥰 playing voice_Recognition!
 
 # If you do, mark 🌟 to this repo.
 ***************************************************************
