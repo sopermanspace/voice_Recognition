@@ -23,13 +23,16 @@ Commands Like :
 
 # Glimpes
 
+![Gitreq](https://user-images.githubusercontent.com/84278213/222178043-df365d82-a350-4b32-b785-4f1c564ec2d1.png)
+
 
 
 # Support
 If you have any issues or questions about voice_Recognition, open an issue on the Github repository.
 
 ***************************************************************
-# We hope you 🥰 playing voice_Recognition!
+# We hope you 🥰 playing voice_Recognition!![Gitreq](https://user-images.githubusercontent.com/84278213/222178066-b548ea4d-aef8-4e01-b23a-52db2efbb2d5.png)
+
 # If you do, mark 🌟 to this repo.
 ***************************************************************
 
