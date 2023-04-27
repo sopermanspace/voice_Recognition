@@ -35,6 +35,9 @@ void Start()
          promptError.SetActive(false);   
         
  }
+ public void makeRequest(){
+        StartCoroutine(SendGpt3Request());
+ }
 
 public IEnumerator SendGpt3Request()
 {
@@ -57,6 +60,16 @@ public IEnumerator SendGpt3Request()
     {
         Debug.LogError("Max Tokens is not set. Please provide a valid Max Tokens.");
       
+        yield break;
+    }
+
+  // Check the cache for the response
+    string cacheKey = model + ":" + prompt + ":" + maxTokens + ":" + temperature;
+    string cachedResponse = (string)Cache.GetCache(cacheKey);
+    if (cachedResponse != null)
+    {
+        Debug.Log("Response found in cache.");
+        _speaker.Speak(cachedResponse);
         yield break;
     }
  
@@ -100,7 +113,9 @@ public IEnumerator SendGpt3Request()
       
         Debug.Log(response);
         _speaker.Speak(response);
-  
+
+        // Cache the response
+        Cache.SetCache(cacheKey, response);
   
     }
       lastRequestTime = Time.time; // update the last request time

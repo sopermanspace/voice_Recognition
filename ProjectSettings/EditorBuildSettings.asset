@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainGame/Mob_assistant.unity
     guid: 320577b19b051f64985125101d973180
   - enabled: 0
-    path: Assets/Scenes/MainGame/Assistant.unity
+    path: Assets/Scenes/MainGame/Extra Features/ComputerAssistant.unity
     guid: 6bdce89659816455b9f906fc62d19910
   - enabled: 0
     path: Assets/Scenes/MainGame/Voice.unity
