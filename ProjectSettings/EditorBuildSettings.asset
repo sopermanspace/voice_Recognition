@@ -6,17 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Voice_rec/Main Menu.unity
+    path: Assets/Scenes/MainGame/Main Menu.unity
     guid: 3dda43ebf56674441a3ccae6127f0d8c
   - enabled: 1
-    path: Assets/Scenes/Voice_rec/Assistant.unity
-    guid: 6bdce89659816455b9f906fc62d19910
-  - enabled: 1
-    path: Assets/Scenes/Voice_rec/Voice.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/MainGame/Mob_assistant.unity
+    guid: 320577b19b051f64985125101d973180
   - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/MainGame/Assistant.unity
+    guid: 6bdce89659816455b9f906fc62d19910
+  - enabled: 0
+    path: Assets/Scenes/MainGame/Voice.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "RZ8R8166FZB",
     "m_SelectedPackage": {
-        "deviceId": "RZ8R8166FZB",
-        "name": "com.My.ARVoiceRegonition",
-        "processId": 25481,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,13 +11,31 @@
         {
             "deviceId": "RZ8R8166FZB",
             "name": "com.My.ARVoiceRegonition",
-            "processId": 16105,
+            "processId": 19739,
             "exited": true
         },
         {
             "deviceId": "RZ8R8166FZB",
             "name": "com.My.ARVoiceRegonition",
-            "processId": 25481,
+            "processId": 20534,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8R8166FZB",
+            "name": "com.My.ARVoiceRegonition",
+            "processId": 23662,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8R8166FZB",
+            "name": "com.My.ARVoiceRegonition",
+            "processId": 24950,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8R8166FZB",
+            "name": "com.My.ARVoiceRegonition",
+            "processId": 28759,
             "exited": false
         }
     ],
