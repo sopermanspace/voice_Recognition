@@ -16,13 +16,11 @@ public Text PromptTxt = null;
 
 [Tooltip("Debug Text")]
 public Text Debug_text;
-
 public bool isListening = true;
 
 [Space(10)]
 [Header("GPT3")]
 public GPT3 Gpt;
-private bool askme;
 
 [Space(10)]
 [Header("Animation")]
@@ -65,6 +63,7 @@ private void InitializeSpeechRecognizer()
 
     foreach (string r in result)
     {  
+    CanListen();
      if(!Gpt._speaker.IsSpeaking)
         {      
         switch(r.ToLower())
@@ -98,7 +97,6 @@ private void InitializeSpeechRecognizer()
                 
                 break;
 
-            case "stop":
             case "bye":
                 texts.text = "Bye";
                 Gpt._speaker.Speak("Bye, See you later");
@@ -126,7 +124,18 @@ private void InitializeSpeechRecognizer()
                   
        }     
     }    
+}
 
+private void CanListen()
+{
+    if (Microphone.IsRecording(null))
+    {
+        return;
+    }
+    if (Gpt._speaker.IsSpeaking)
+    {
+        return;
+    }  
 }
 
 private IEnumerator CreateRequestCoroutine() 
@@ -148,8 +157,7 @@ public void OnError(string recognizedError)
 {
      throw new NotImplementedException();
 }
-
-    
+ 
 
 
 }//class

@@ -23,7 +23,7 @@ public class GPT3 : MonoBehaviour
     [Space(10)]
     [Header("Voice Recognition")]
     public GameObject promptError;
-     public TTSSpeaker _speaker;
+    public TTSSpeaker _speaker;
 
     //  public Text apiText; 
   
